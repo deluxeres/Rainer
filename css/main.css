@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+header {
+    height: 95px;
+    width: 1470px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    align-content: center;
+    display: flex; 
+    justify-content: center;
+}
+
+.logo img{
+    margin-right: 850px;
+}
+
+.hero-block-wrapper {
+    background-image: url(../assets/img/background-1.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+.nav-link li {
+    list-style-type: none; /* Убираем маркеры */
+    display: inline;
+    font-family: Roboto;
+    color: white;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    float: right;
+}
+
+.top-one {
+    margin-left: 300px;
+    margin-top: 250px
+}
+
+.h1-text {
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.text-top-2 {
+    margin-top: 30px;
+}
+
+.h2-text {
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+.btn-start a {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    border-radius: 40px 0 40px;
+    transition: 0.3s;
+    -webkit-box-shadow: 4px 4px 51px -7px rgba(255, 0, 0, 0.24);
+    -moz-box-shadow: 4px 4px 51px -7px rgba(255, 0, 0, 0.24);
+    box-shadow: 4px 4px 51px -7px rgba(255, 0, 0, 0.24);
+}
+
+.btn-start a:hover {
+    background-color: white;
+    color: red;
+}
+
+.btn-start {
+    margin-top: 90px;
+}
+
+.img-person1 {
+    float: right;
+    margin-right: 40px;
+    margin-top: -650px;
+}
