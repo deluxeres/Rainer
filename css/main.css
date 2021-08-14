@@ -19,6 +19,13 @@ header {
 
 .logo img{
     margin-right: 850px;
+    transition: 1s;
+}
+
+.logo img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);   
 }
 
 .hero-block-wrapper {
@@ -103,4 +110,57 @@ a {
     float: right;
     margin-right: 40px;
     margin-top: -650px;
+}
+
+.row {
+    background-image: url(../assets/img/background-2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 1470px;
+}
+
+.game__start-text {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 850px;
+    margin-right: auto;
+}
+
+.steps {
+    margin-top: 130px;
+    margin-left: 1250px;
+}
+
+.steps_1 {
+    background-color: white;
+    border-radius: 40px 0 40px;
+    height: 180px;
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+.steps_2 {
+    background-color: white;
+    border-radius: 40px 0 40px;
+    height: 180px;
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+.steps_3 {
+    background-color: white;
+    border-radius: 40px 0 40px;
+    height: 180px;
+    width: 350px;
+}
+
+.steps__number {
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 150px;
 }
